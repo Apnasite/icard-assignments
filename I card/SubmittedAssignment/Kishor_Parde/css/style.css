@@ -81,8 +81,11 @@ body {
 }
 
 .org-logo img {
-    max-width: 20.25%; /* 27% */
+    max-width: 20.25%;
     height: auto;
+    top: -15mm;
+    left: -23mm;
+    position: relative;
 }
 
 .user-photo {
@@ -93,6 +96,7 @@ body {
     width: 75pt; /* 100px */
     border-radius: 50%;
     object-fit: cover;
+    mix-blend-mode: exclusion ;
 }
 
 .user-photo img {
@@ -105,15 +109,16 @@ body {
 }
 
 .user-name {
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: bold;
     text-align: center;
     margin-bottom: 30mm;
     position: absolute;
-    top: 31mm;
-    left: 20mm;
+    top: 27mm;
+    left: 23mm;
     color: #ffffff;
     font-family: sub;
+    
 }
 
 .id-number {
@@ -266,7 +271,7 @@ body {
 }
 .Name{
     position: absolute;
-    left: 14mm;
+    left: 16mm;
     top: 22mm;
     width: 35mm;
     font-family: sub;
@@ -283,16 +288,17 @@ body {
     font-family:dub;
     color: #1492c4;
 }
-.mail{
+.Expiry-Date{
     position: absolute;
-    top: 40mm;
-    font-size: 9pt;
-    left: 9mm;
+    top: 50mm;
+    font-size: 8pt;
+    left: 15mm;
     color: #1492c4;
+    width: 30mm;
 }
 .website{
     position: absolute;
-    top: 45mm;
+    top: 40mm;
     font-size: 9pt;
     left: 15mm;
     color: #1492c4;
@@ -301,7 +307,7 @@ body {
 
 .id-issue-date{
     position: absolute;
-    top: 50mm;
+    top: 45mm;
     left: 15mm;
     font-size: 8pt;
     width: 30mm;
