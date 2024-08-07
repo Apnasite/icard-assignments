@@ -155,13 +155,14 @@ body {
 }
 
 .org-name {
-    font-size: 6pt;
+    font-size: 7pt;
     text-align: center;
     margin-bottom: 18mm;
     position: absolute;
-    top: 28mm;
+    top: 27mm;
     width: 53mm;
     left: 3mm;
+    font-weight: bold;
 }
 
 .org-address {
@@ -262,9 +263,10 @@ body {
     position: absolute;
     width: 25mm;
     height: 20mm;
-    top: 24mm;
+    top: 66pt;
     left: 16mm;
     font-size: 6pt;
+
 }
 
 .id-dob{
@@ -280,7 +282,7 @@ body {
     position: absolute;
     width: 25mm;
     height: 20mm;
-    top: 27mm;
+    top: 29mm;
     left: 16mm;
     font-size: 6pt;
 }
@@ -289,7 +291,7 @@ body {
     position: absolute;
     width: 25mm;
     height: 20mm;
-    top: 30mm;
+    top: 31mm;
     left: 16mm;
     font-size: 6pt;
 }
