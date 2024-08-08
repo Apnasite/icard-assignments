@@ -1,0 +1,40 @@
+ <!-- Content of ID Card Front Side -->
+         <div class ="card-content">
+            <div class="tri1"></div>
+            <div class="tri2"></div>
+			
+			
+			
+			
+			
+			
+			
+.id-card-wrapper-front .tri1{
+    position: absolute;
+    width: 59mm;
+    height: 69mm;
+    left: 0mm;
+    top: 8mm;
+    background: rgb(250 249 247);
+    border-radius: 6mm;
+    rotate: 0deg;
+}
+.id-card-wrapper-front .tri2
+{
+    position: absolute;
+    width: 70mm;
+    height: 36mm;
+    left: -5mm;
+    top: -13mm;
+    background: #5624d4;
+    border-radius: 9mm;
+    rotate: -20deg;
+    
+}
+
+
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #5624d4;
+    height: 100%;
+}
