@@ -81,10 +81,10 @@ body {
 }
 
 .org-logo img {
-    max-width: 20.25%;
+    max-width: 26.25%;
     height: auto;
-    top: -15mm;
-    left: -23mm;
+    top: -13mm;
+    left: -18mm;
     position: relative;
 }
 
@@ -100,12 +100,12 @@ body {
 }
 
 .user-photo img {
-    width: 20.75mm; /* 25mm */
-    height: 17.75mm; /* 21mm */
+    width: 18.75mm;
+    height: 15.75mm;
     border-radius: 2mm;
     position: absolute;
-    top: -14mm; /* 7mm */
-    left: 0mm; /* 56px */
+    top: -10mm;
+    left: 0mm;
 }
 
 .user-name {
@@ -266,18 +266,17 @@ body {
     top: 34mm;
     left: 15mm;
     width: 50mm;
-    font-size: 12pt;
+    font-size: 11pt;
     color: #1492c4;
 }
 .Name{
     position: absolute;
-    left: 16mm;
-    top: 22mm;
+    left: 15mm;
+    top: 20mm;
     width: 35mm;
     font-family: sub;
-    font-size: 13pt;
+    font-size: 15pt;
     color: #0d4777;
-
 }
 .job-d{
     position: absolute;
