@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #77bfcf;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+   
+}
+
+.card {
+    width: 260px;
+    height: 420px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.front {
+    background-image: url('background1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.back {
+    background-image: url('background2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.id-number {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.profile-pic {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+.name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.last-name {
+    position: relative;
+    font-size: 18px;
+    color: #00bfff;
+    top: 25px;
+    left: -16px;
+    text-align: center;
+}
+
+.first-name {
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    top: 25px;
+    left: -69;
+}
+
+.dates {
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.qr-code img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 14px;
+}
+
+.triangle-bottomright {
+    position: relative;
+    width: 135px;
+    height: -1px;
+    top: 15px;
+    left: 161px;
+    rotate: 136deg;
+    border-bottom: 100px solid #a7adaf38;
+    border-left: 100px solid transparent;
+  }
+  .parallelogtam-bottamright {
+    position: relative;
+    width: 94px;
+    height: 37px;
+    top: -150px;
+    left: 175px;
+    rotate: 135deg;
+    transform: skew(-26deg);
+    background: #83c0cd;
+  }
+  .rectangle-bottomleft {
+    position: relative;
+    width: 211px;
+    height: 57px;
+    top: -63px;
+    left: -78px;
+    background: #77bfcf69;
+    rotate: 43deg;
+  }
+
+  .triangle-topright {
+    position:relative;
+    height: 0;
+    width: 0;
+    left: -119px;
+    top: -1px;
+    border-top: 100px solid#00bfff;
+    border-left: 100px solid transparent;
+  }
+
+  .rectangle {
+    position: relative;
+    width: 112px;
+    height: 39px;
+    top: 62px;
+    left: -252px;
+    rotate: -49deg;
+    transform: skew(-46deg);
+    background: #b4c2c7;
+  }
+
+   /* Back Side of the ID Card */ 
+.trangle-bottemright2 {
+    position: relative;
+    width: 6px;
+    height: -60px;
+    top: -39px;
+    left: 179px;
+    rotate: -361deg;
+    border-bottom: 100px solid #b4c2c7;
+    border-left: 100px solid transparent;
+}
+
+.parallelogram {
+    position: relative;
+    width: 117px;
+    height: 43px;
+    top: -189px;
+    left: 178px;
+    rotate: 77deg;
+    transform: skew(33deg);
+    background: #b4c2c7;
+  }
+
+  .parallelogram3 {
+    position: relative;
+    width: 56px;
+    height: 38px;
+    top: -141px;
+    left: 162px;
+    rotate: 77deg;
+    transform: skew(33deg);
+    background: #b4c2c7;
+  }
+  
+  .rectangletop1 {
+    position: relative;
+   
+    top: -581px;
+    left: 86px;
+    rotate: 0deg;
+    transform: skew(66deg);
+    border-top: 59px solid #211b1b;
+    border-right: 131px solid transparent;
+}
+
+.rectangle2 {
+    position: relative;
+    border-bottom: 100px solid #00bfff;
+    border-right: 100px solid transparent;
+    top: -279px;
+    left: -19px;
+    height: 0px;
+    width: 0px;
+    rotate: 0deg;
+    transform: skew();
+}
+
+    
