@@ -1,0 +1,558 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0% 25%;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    position: relative;
+}
+.square{
+    height: 54mm;
+    width: 59mm;
+    background-color:#001822;
+    position: absolute;
+    z-index: 1;
+}
+.tri1{
+    border-left: 117px solid transparent;
+    border-right: 122px solid transparent;
+    border-top: 49px solid  #001822;
+    position: absolute;
+    z-index: 1;
+    margin: 54mm 0mm 0mm -2mm;
+    overflow: hidden;
+}
+.left-angle{
+    height: 10mm;
+    /* border: 1mm solid red; */
+    transform: skewy(40deg);
+    margin: 53mm 0mm 0mm 0mm;
+    width: 4mm;
+    background-color: orange;
+    position: absolute;
+    z-index: 0;
+}
+.right-angle{
+    height: 10mm;
+    /* border: 1mm solid red; */
+    transform: skewy(-40deg);
+    margin: 53mm 0mm 0mm 55mm;
+    width: 4mm;
+    background-color: orange;
+}
+.id-card-wrapper-front .id-card-background {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-card-background h6{
+    margin: 16mm 0mm 0mm 32mm;
+    z-index: 1;
+    position: absolute;
+    font-size: 0.57em;
+    color:white;
+}
+
+.id-card-wrapper-front .id-dark-pink {
+    left: 0pt;
+    margin-top: 76mm;
+    width: 60mm;
+    height: 12.5pt;
+    background-color: #fc7441;
+    position: absolute;
+    top: 6pt; /* 0px */
+}
+
+.id-card-wrapper-front .id-pink {
+    left: 102pt; /* 136px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 68.1pt; /* 90.8px */
+    height: 22.5pt; /* 30px */
+    background-color: rgb(245, 117, 200);
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.id-card-wrapper-front .id-light-pink {
+    left: 51pt; /* 68px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 53.775pt; /* 71.7px */
+    height: 22.5pt; /* 30px */
+    background-color: rgb(250, 97, 197);
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+                /* id card  main content */
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt; /* 19px */
+    /* border: 2px solid red; */
+}
+
+.org-logo img {
+    max-width: 20.25%; /* 27% */
+    height: auto;
+    margin: 0mm 0mm 0mm -39mm;  
+}
+
+.user-photo {
+    position: absolute;
+    left: 45.5pt;
+    top: 27.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+    top: 3.25mm;
+    left: 12pt;
+    width: 18.75mm; /* 25mm */
+    height: 19.75mm; /* 21mm */
+    border-radius: 50pt;
+    position: absolute;
+    /* top: 5.25mm; 7mm */
+    /* left: 42pt; 56px */
+}
+.user-name {
+    font-size: 0.8em;
+    position: absolute;
+    font-weight: bold;
+    top: 37mm;
+    left: 15mm;
+    color: #d67b58;
+}
+.user-surname{
+    font-size: 0.8em;
+    position: absolute;
+    font-weight: bold;
+    top: 37mm;
+    left: 33mm;
+    color:#d67b58;
+}
+
+
+.id-number {
+    font-size: 0.6em;
+    font-weight: bold;
+    position: absolute;
+    top: 34mm;
+    left: 23mm;
+    color: white;
+}
+
+.id-title {
+    font-size: 0.8333em;
+    font-weight: bold;
+    position: absolute;
+    top: 42mm;
+    left: 10mm;
+    color: white;
+    border-radius: 5mm;
+    background-color: #fd5331;
+    width: 39mm;
+    height: 5mm;
+    text-align: center;
+  }
+
+.org-name {
+    font-size: -1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 46.6mm;
+    left: 15mm;
+    color: white;
+    font-size: 8pt;
+}
+
+.org-address {
+    font-size: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 59mm;
+    left: 3mm;
+}
+
+.user-phone{
+    font-size: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 62mm;
+    left: 2mm;
+}
+
+.user-email{
+    font-size: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 65mm;
+    left: 2mm;
+}
+
+/*      Back Card    */
+.square1{
+    height: 54mm;
+    width: 59mm;
+    background-color:#001822;
+    position: absolute;
+    z-index: 1;
+}
+.tri2{
+    border-left: 117px solid transparent;
+    border-right: 122px solid transparent;
+    border-top: 49px solid  #001822;
+    position: absolute;
+    z-index: 1;
+    margin: 54mm 0mm 0mm -2mm;
+    overflow: hidden;
+}
+.left1-angle{
+    height: 10mm;
+    /* border: 1mm solid red; */
+    transform: skewy(40deg);
+    margin: 53mm 0mm 0mm 0mm;
+    width: 4mm;
+    background-color: orange;
+    position: absolute;
+    z-index: 0;
+}
+.right1-angle{
+    height: 10mm;
+    /* border: 1mm solid red; */
+    transform: skewy(-40deg);
+    margin: 53mm 0mm 0mm 55mm;
+    width: 4mm;
+    background-color: orange;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 190.5pt; /* 254px */
+    top: -255.75pt; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: 0pt; /* 0px */
+    margin-top: 216pt; /* 288px */
+    width: 53.775pt; /* 71.7px */
+    height: 15.5pt;
+    background-color: #fc7443;
+    position: absolute;
+    top: 3pt;
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    left: 90.75pt; /* 121px */
+    margin-top: 216pt; /* 288px */
+    width: 82.2pt; /* 109.6px */
+    height: 15.5pt;
+    background-color: #fc7443;
+    position: absolute;
+    top: 3pt;
+}
+
+.id-card-wrapper-back .id-light-pink-bottom {
+    left: 48pt; /* 64px */
+    margin-top: 216pt; /* 288px */
+    width: 53.775pt; /* 71.7px */
+    height: 15.5pt;
+    background-color: #fc7443;
+    position: absolute;
+    top: 3pt;
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 20pt; /* 54px */
+    position: absolute;
+    z-index: 1;
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; /* 72px */
+    padding: 6pt; /* 8px */
+    color: white;
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 22.5pt; /* 10px */
+    top: 21.5pt; /* 10px */
+    /* height: 75pt; 100px */
+    /* width: 75pt; 100px */
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm; /* 20mm */
+    height: 12mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -3.25mm; /* -19mm */
+    left: 42pt; /* 56px */
+}
+
+.id-emergency-contact{
+    font-size: 0.5em;
+    margin: -20mm 0mm 0mm 0mm;
+}
+.id-blood-group{
+    font-size: 0.5em;
+    margin: -5mm 0mm 0mm 29mm;
+}
+.id-dob{
+    font-size: 0.5em;
+    margin: 0mm 0mm 0mm 29mm;
+}
+.id-dates{
+    font-size: 0.5em;
+    margin: -10mm 0mm 0mm 35mm;
+}
+.id-barcode{
+    font-size: 0.5em;
+    margin: -15mm 0mm 0mm 35mm;
+}
+.id-policy {
+    font-size: 0.5em;
+    margin: -11mm 0mm 0mm 0mm;
+    color: black;
+}
+.id-issue-date{
+    font-size: 0.57em;
+    padding: 72mm 0mm 0mm 0mm;
+}
+.id-expiry-date{
+    font-size: 0.57em;
+    margin: -3mm 0mm 0mm 29mm;
+}
+.box-sizing1{
+    margin: -143mm 0mm 0mm 33mm;
+    transform: rotate(185deg) scaleY(1.7);
+    position: absolute;
+    z-index: 1;
+}
+.front-box{
+    height: 11mm;
+    width: 8mm;
+    margin: 29mm 0mm 0mm 49mm;
+    transform: skewY(-27deg);
+    background-color: #fd743a;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.front-box1{
+    height: 2mm;
+    width: 5mm;
+    background-color: #fd743a;
+    margin: -13mm 0mm 0mm 51mm;
+    transform: skewX(-65deg);
+}
+.front-box2{
+    height: 3mm;
+    width: 9mm;
+    background-color: #cdd4dc;
+    margin: -1mm 0mm 0mm 43mm;
+    transform: skewX(-243deg);
+}
+.front-box3{
+    height: 9.3mm;
+    width: 10mm;
+    margin: 0mm 0mm 0mm 40mm;
+    transform: rotateY(-18deg);
+    background-color: #022c3c;
+}
+.front-box4{
+    height: 4mm;
+    width: 9mm;
+    background-color: #fe7443;
+    transform: skewY(0deg) skewX(-68deg) translateY(-0.1mm);
+    margin: -0.3mm 0mm 0mm 36mm;
+}
+.front-box5{
+    height: 8mm;
+    width: 6mm;
+    margin: 32mm 0mm 0mm 50mm;
+    transform: skewY(-31deg) rotateY(33deg);
+    background-color: #fb572f;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.front-box6{
+    height: 1.5mm;
+    width: 4.3mm;
+    background-color: #fd743a;
+    margin: -10mm 0mm 0mm 51mm;
+    transform: skewX(-56deg) translateY(0.3mm) skewY(5deg);
+}
+.front-box7{
+    height: 2mm;
+    width: 7mm;
+    background-color: #cdd4dc;
+    margin: -1mm 0mm 0mm 47mm;
+    transform: skewX(-239deg) skewY(0deg) translateY(1mm);
+}
+.front-box8{
+    height: 4.3mm;
+    width: 13mm;
+    margin: 1mm 0mm 0mm 42mm;
+    transform: skewY(6deg) rotateY(40deg) translateX(0mm);
+    background-color: #022c3c;
+}
+.front-box9{
+    margin: -37mm 0mm 0mm -13mm;
+}
+.front-box10{
+    height: 2mm;
+    width: 9mm;
+    background-color: #fa743eed;
+    margin: 0mm 0mm 0mm 40mm;
+    transform: rotateX(41deg) skewX(-67deg) skewY(6deg) translateY(-1mm);
+    margin: 0mm 0mm 0mm 38mm;
+    border-bottom: 2px solid #ced2d8;
+    border-right: 12px solid #ced2d8;
+}
+
+.box{
+    height: 11mm;
+    width: 8mm;
+    margin: -54mm 0mm 0mm 49mm;
+    transform: skewY(-27deg);
+    background-color: #fd743a;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.box1{
+    height: 2mm;
+    width: 5mm;
+    background-color: #fd743a;
+    margin: -13mm 0mm 0mm 51mm;
+    transform: skewX(-65deg);
+}
+.box2{
+    height: 3mm;
+    width: 9mm;
+    background-color: #cdd4dc;
+    margin: -1mm 0mm 0mm 43mm;
+    transform: skewX(-243deg);
+}
+.box3{
+    height: 9.3mm;
+    width: 10mm;
+    margin: 0mm 0mm 0mm 40mm;
+    transform: rotateY(-18deg);
+    background-color: #022c3c;
+}
+.box4{
+    height: 4mm;
+    width: 9mm;
+    background-color: #fe7443;
+    transform: skewY(0deg) skewX(-68deg) translateY(-0.1mm);
+    margin: -0.3mm 0mm 0mm 36mm;
+}
+.box5{
+    height: 8mm;
+    width: 6mm;
+    margin: 32mm 0mm 0mm 50mm;
+    transform: skewY(-31deg) rotateY(33deg);
+    background-color: #fb572f;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.box6{
+    height: 1.5mm;
+    width: 4.3mm;
+    background-color: #fd743a;
+    margin: -10mm 0mm 0mm 51mm;
+    transform: skewX(-56deg) translateY(0.3mm) skewY(5deg);
+}
+.box7{
+    height: 2mm;
+    width: 7mm;
+    background-color: #cdd4dc;
+    margin: -1mm 0mm 0mm 47mm;
+    transform: skewX(-239deg) skewY(0deg) translateY(1mm);
+}
+.box8{
+    height: 4.3mm;
+    width: 13mm;
+    margin: 1mm 0mm 0mm 42mm;
+    transform: skewY(6deg) rotateY(40deg) translateX(0mm);
+    background-color: #022c3c;
+}
+.box9{
+    margin: -37mm 0mm 0mm -13mm;
+}
+.box10{
+    height: 2mm;
+    width: 9mm;
+    background-color: #fa743eed;
+    margin: 0mm 0mm 0mm 40mm;
+    transform: rotateX(41deg) skewX(-67deg) skewY(6deg) translateY(-1mm);
+    margin: 0mm 0mm 0mm 38mm;
+    border-bottom: 2px solid #ced2d8;
+    border-right: 12px solid #ced2d8;
+}
+.box-sizing{
+    margin: 20mm 0mm 0mm 2mm;
+    /* position: fixed; */
+    position: absolute;
+    z-index: 1;
+}
