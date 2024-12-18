@@ -463,8 +463,8 @@ margin-left: 450px;
 
 .company{
     position: absolute;
-    margin-top: 340px;
-    margin-left: 40%;
+    margin-top: 370px;
+    margin-left: 41%;
 width: 50px;
 }
 
@@ -472,27 +472,26 @@ width: 50px;
     position: absolute;
     z-index: -1;
     width: 130px;
-    margin-top: 390px;
+    margin-top: 420px;
 background-color: #f8f8fe;    
     font-weight: bolder;
-    margin-left: 22%;
+    margin-left: 28%;
     border-radius: 15px 15px 30px 30px ;
     transform: skew(180deg);
     opacity: 83%;
 }
-
-.code{
-    position: absolute;
-    z-index: -1;
-    width: 180px;
-    margin-top: 230px;
-background-color: #f8f8fe;    
-    font-weight: bolder;
-    margin-left: 15%;
-    transform: skew(180deg);
-    opacity: 83%;
-    height: 45px;
-}
+.code {
+        position: absolute;
+        z-index: -1;
+        width: 180px;
+        margin-top: 280px;
+        background-color: #f8f8fe;
+        font-weight: bolder;
+        margin-left: 21%;
+        transform: skew(180deg);
+        opacity: 83%;
+        height: 45px;
+    }
 
 .signatureone{
     width: 40px;
@@ -500,7 +499,7 @@ background-color: #f8f8fe;
     background-color: #fff;
     position: absolute;
     margin-top: 75px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .signature{
@@ -508,7 +507,7 @@ background-color: #f8f8fe;
     height: 2px;
     position: absolute;
     margin-top: 70px;
-    margin-left: 67px;
+    margin-left: 86px;
     text-transform: uppercase;
 }
 
@@ -518,7 +517,7 @@ background-color: #f8f8fe;
     background-color: #fff;
     position: absolute;
     margin-top: 75px;
-    margin-left: 192px;
+    margin-left: 230px;
 }
 
 
