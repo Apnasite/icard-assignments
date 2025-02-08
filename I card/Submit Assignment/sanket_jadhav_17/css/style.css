@@ -331,7 +331,7 @@ body {
 .id-blood-group{
     font-size: 3mm;
     position: absolute;
-    top: 11mm;
+    top: 13mm;
     left: 2mm;
 }
 .id-dob{
@@ -359,7 +359,7 @@ body {
     top: 29mm;
 }
 .id-policy {
-    left: 2mm;
+    left: 1mm;
     font-size: 7.653pt;
     position: absolute;
     top: 39mm;
