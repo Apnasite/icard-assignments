@@ -472,11 +472,10 @@
 } 
 .star4{
     position: absolute;
-    left:33mm;
-    top:68mm;
-    color:  rgb(0, 200, 255);;
+    left: 5mm;
+    top: 56mm;
+    color: rgb(0, 200, 255);
     z-index: 2;
-
 } 
 .star5{
     position: absolute;
@@ -504,7 +503,7 @@
 .id-dob{
     position: relative;
     left: 14mm;
-    top: -118mm;
+    top: -60mm;
     font-size: 12pt;
     font-weight: bold;
 }
@@ -512,7 +511,7 @@
 .id-issue-date{
     position: relative;
     left: 16mm;
-    top: -117mm;
+    top: -58mm;
     font-size: 12pt;
     color: black;
     font-weight: bold;
@@ -521,8 +520,18 @@
 .id-expiry-date{
     position: relative;
     left: 14mm;
-    top: -115mm;
+    top: -56mm;
     font-size: 12pt;
     color: black;
     font-weight: bold;
+}
+
+.id-policy{
+    position: relative;
+    top: -51mm;
+    left:auto;
+    font-size: 7pt;
+    text-align: center;
+    color: #811206;
+    font-weight: lighter;
 }
