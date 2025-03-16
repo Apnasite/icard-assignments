@@ -1,0 +1,430 @@
+body html{
+    box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 226, 226);
+    gap: 50px;
+}
+
+
+.front-card{
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    height: 65%;
+    box-shadow:  -7px 8px 13px 0px black;
+    overflow: hidden;
+}
+
+.front-background{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.front-background-top{
+    width: 100%;
+    height: 60%;
+    transform: skew(0deg ,-24deg);
+    background-color: rgb(211, 47, 47);
+    margin-top: -116px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#first-box{
+    width: 120px;
+opacity: 0.2;
+height: 100px;
+position: absolute;
+margin-left: -320px;
+margin-top: 30px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#second-box{
+    width: 120px;
+    opacity: 0.2;
+    height: 100px;
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 110px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#third-box{
+    width: 120px;
+    opacity: 0.2;
+    height: 140px;
+    margin-left: -320px;
+    margin-top: 210px;
+    position: absolute;
+    box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+    
+    
+    background-color: rgba(172, 6, 6, 0.658);
+}
+
+#four-box{
+    width: 120px;
+    opacity: 0.2;
+height: 150px;
+position: absolute;
+margin-left: -120px;
+margin-top: 200px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#five-box{
+    width: 120px;
+    opacity: 0.2;
+height: 140px;
+position: absolute;
+margin-left: -110px;
+margin-top: 100px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#six-box{
+    width: 120px;
+    opacity: 0.2;
+    height: 140px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 130px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#seven-box{
+    width: 120px;
+opacity: 0.2;
+height: 140px;
+position: absolute;
+margin-left: 60px;
+margin-top: 210px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#eight-box{
+width: 120px;
+opacity: 0.2;
+height: 140px;
+position: absolute;
+margin-left: 240px;
+margin-top: 170px;
+box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+background-color: rgba(172, 6, 6, 0.658);
+}
+
+#nine-box{
+    width: 120px;
+    opacity: 0.2;
+    height: 140px;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 210px;
+    box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+    
+    background-color: rgba(172, 6, 6, 0.658);
+}
+
+.front-background-bottom{
+    width: 150%;
+    height: 100%;
+    margin-top: -13px;
+    background-color: rgba(85, 84, 82, 0.164);
+    transform: rotate(-24deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.front-view{
+    /* background-color: rgb(0, 0, 0); */
+    width: 23%;
+    height:65%;
+    margin-top: -24.7%;
+    position: absolute;
+}
+
+.front-view-top{
+    width: 100%;
+    height: 53%;
+}
+
+.front-view-bottom{
+    width: 100%;
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+
+#your-name{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    font-weight: bold;
+}
+
+#userphoto{
+    height: 170px;
+    width: 170px;
+    margin-top: 25px;
+    margin-left : 140px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.company-name{
+    text-align: center;
+    font-size: 5px;
+    line-height: 23px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#logo{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#personal-info{
+    font-size: 1px;
+    display: inline;
+}
+
+#join-expire{
+    font-size: 0px;
+    display: inline;
+}
+
+h2{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back-card{
+    background-color: rgb(211, 47, 47);
+    width: 23%;
+    height: 65%;
+    box-shadow:  7px 8px 13px 0px black;
+    overflow: hidden;
+}
+
+.back-background{
+    background-color: rgb(211, 47, 47);
+    width: 100%;
+    height: 100%;
+}
+
+
+.back-background-top{
+    width: 100%;
+    height: 50%;
+    transform: skew(0deg ,-20deg);
+    background-color: rgb(211, 47, 47);
+    margin-top: -90px;
+    position: relative;
+}
+
+#first-box1{
+    width: 120px;
+    opacity: 0.2;
+    height: 100px;
+    position: absolute;
+    /* margin-left: -320px; */
+    margin-top: 10px;
+    box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+    background-color: rgba(172, 6, 6, 0.658);
+    }
+
+    #second-box2{
+        width: 120px;
+        opacity: 0.2;
+        height: 100px;
+        position: absolute;
+        margin-top: 110px;
+        box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+        background-color: rgba(172, 6, 6, 0.658);
+        }
+
+
+        #third-box3{
+            width: 120px;
+            opacity: 0.2;
+            height: 140px;
+            /* margin-left: -320px; */
+            margin-top: 150px;
+            position: absolute;
+            box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+            background-color: rgba(172, 6, 6, 0.658);
+            }
+            
+            #four-box4{
+            width: 120px;
+            opacity: 0.2;
+            height: 150px;
+            position: absolute;
+            margin-left: 120px;
+            margin-top: 140px;
+            box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+            
+            
+            background-color: rgba(172, 6, 6, 0.658);
+            }
+            
+            #five-box5{
+            width: 120px;
+            opacity: 0.2;
+            height: 140px;
+            position: absolute;
+            margin-left: 110px;
+            margin-top: 50px;
+            box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+            background-color: rgba(172, 6, 6, 0.658);
+            }
+
+            #six-box6{
+                width: 120px;
+                opacity: 0.2;
+            height: 140px;
+            position: absolute;
+            margin-left: 200px;
+            margin-top: 80px;
+            box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+            background-color: rgba(172, 6, 6, 0.658);
+            }
+            
+            #seven-box7{
+                width: 120px;
+                opacity: 0.2;
+                height: 140px;
+            position: absolute;
+            margin-left: 240px;
+            margin-top: 150px;
+            box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+            background-color: rgba(172, 6, 6, 0.658);
+            }
+
+            #eight-box8{
+                width: 120px;
+                opacity: 0.2;
+                height: 140px;
+                position: absolute;
+                margin-left: 290px;
+                margin-top: 120px;
+                box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+                
+                
+                background-color: rgba(172, 6, 6, 0.658);
+                }
+                       
+            
+            #nine-box9{
+            width: 120px;
+            opacity: 0.2;
+            height: 140px;
+            position: absolute;
+            margin-left: 330px;
+            margin-top: 150px;
+            box-shadow:inset 0px 0px 25px 10px rgb(194, 186, 186);
+            
+            background-color: rgba(172, 6, 6, 0.658);
+            } 
+
+  .company-describtion{
+    margin-top: 60px;
+    width: 96%;
+  }          
+            
+            .back-front-view{
+                width: 23%;
+                height:65%;
+                margin-top: -26.2%;
+                position: absolute;
+                /* background-color: fuchsia; */
+            }
+            
+            .company-name-back{
+                text-align: center;
+                font-size: 5px;
+                margin-top: 125px;
+                line-height: 23px;
+                font-family: 'Franklin Gothic Medium';
+            }
+            
+#code{
+    width: 300px;
+    margin-left: -140px;
+    position: absolute;
+    height: 60px;
+    margin-top: -100px;
+}
+
+#signature{
+    font-size: 25px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 125px;
+    font-weight: bolder;
+}
+
+#logos{
+    margin-left: 200px;
+    width: 50px;
+height: 50px;
+position: absolute;
+margin-top: 30px;
+}
+
+.comany-back{
+    margin-top: 68px;
+font-size: 20px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
