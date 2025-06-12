@@ -1,0 +1,486 @@
+/* Reset some default styles
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: grey;
+    width: 50%;
+    height: 600px;
+    
+} */
+
+.completeIdCard{
+    width: 40%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:grey;
+    margin:100px 100px 200px 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 320px; /* 223px */
+    height: 550px; /* 317px */
+    background-color:lightgray;
+    border: 0.75pt solid lightgray; /* 1px */
+    left: -130pt; /* 254px */
+    top: 85.00pt; /* -341px */
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+   
+}
+.id-card-wrapper-front .id-card-background {
+    background-color:lightgrey;
+    height: 100%;
+
+}
+.name-title-front{
+    position: absolute;
+    top: 52mm;
+    left: 12mm;
+    text-align: center;
+    margin-left: 25px;
+    color: #003366;
+   
+}
+.name-title-front p{
+    top: 65mm;
+    font-size: 16px;
+    color:  #003366;
+    margin: 0;
+    font-weight: normal;
+
+}
+.id-Front-dark-blue-top-dottedCircle{
+    position: absolute;
+    width:68px;
+    height: 66px;
+    margin-left: 244px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle,#003366 3%, transparent 2%), radial-gradient(circle, #003366 3%, transparent 2%);
+    background-size: 10px 10px;
+    background-position: 0 0, 20px 20px;
+    top: 11px;
+   
+}
+
+.id-card-wrapper-front .id-skyblue-slante-stripe {
+    right:170pt; /* 136px */
+    margin-top:-10px; /* -0.92px */
+    width: 90.1pt; /* 90.8px */
+    height: 22.5pt; /* 30px */
+    background-color: skyblue; 
+    position: absolute;
+    transform: rotate(145deg);
+    top: 12pt; /* 0px */
+    
+
+    
+}
+
+
+.div2{
+    position: relative;
+    width: 320px; /* 223px */
+    height: 160px; /* 150px */
+    background-color: white;
+    left:0pt; /* 254px */
+    top: 390px; /* -100px */
+}
+.idno{
+    
+    margin-top: 10px;
+    margin-left: 95px;
+ 
+   
+}
+.rightTrangleBottom{
+   position:absolute;
+    width: -20px;
+      height: -10px;
+      left: 230px;
+      border-right: 100px solid   #003366; 
+      border-top: 80px solid transparent;
+      top: 10px;
+      
+    transform: rotate(270deg);
+}
+.horizontalStripe{
+    position: absolute;
+    width: 250px;
+     height: 29px;
+     right: 0pt; /* 64px */
+     border-right: 10px solid skyblue;
+    
+    background-color: skyblue;
+    transform: rotate(180deg);
+    margin-top: 65px;
+
+}
+.bottom-div2-semicircle{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 58px; /* Half the height to form a semicircle */
+    background-color: #003366;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: -5.75pt;
+    margin-top: 44mm;
+}
+
+.org-logo img {
+    max-width: 46.25%; /* 27% */
+    height: auto;
+}
+
+.user-photo {
+    position: absolute;
+    width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom,  rgb(3, 33, 108) 50%, white 50%); /* Horizontal half blue, half white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.user-photo img {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+
+.user-name {
+    font-size: 1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 55mm;
+    left: 25mm;
+}
+
+.id-number {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 62mm;
+    left: 35mm;
+}
+
+.id-title {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 71mm;
+    left: 26mm;
+}
+
+.org-name {
+    font-size: -1.1667em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 76mm;
+    left:22mm;
+}
+
+.org-address {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 67mm;
+    left: 30mm;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 320px; /* 223px */
+    height: 550px; /* 317px */
+    background-color:lightslategray;
+    border: 0.75pt solid gray; /* 1px */
+    overflow: hidden;
+    left: 140pt; /* 254px */
+    top: -330pt; /* -341px */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color:lightgray;
+    height: 100%;
+ 
+
+}
+
+.triangle-top-right {
+    position: absolute;
+    width: -200px;
+      height: 40px;
+      left: 230px;
+      border-right: 180px solid   #003366; 
+      border-top: 140px solid transparent;
+      
+    transform: rotate(270deg);
+
+}
+
+.id-card-wrapper-back .id-sky-bottom {
+   
+        position: absolute;
+        width: 100px;
+         height: 10px;
+        
+        left:205px;
+        border-right: 29px solid skyblue; /* Triangle color */
+        border-top: 75px solid transparent;
+        
+        transform: rotate(90deg);
+        top: 320pt; 
+
+}
+
+.id-card-wrapper-back .id-light-sky-bottom {
+  position: absolute;
+    width: 225px;
+     height: 27px;
+     left: 0pt; /* 64px */
+    border: 1px solid skyblue;
+    background-color:skyblue;
+   
+    margin-top: 504px;
+   
+}
+.id-dark-blue-bottom-semicircle{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 58px; /* Half the height to form a semicircle */
+    background-color: #003366;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+ 
+}
+.id-dark-blue-bottom-leftStripe{
+    position: absolute;
+    width: 130px;
+     height: 31px;
+     left: -30pt; /* 64px */
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    transform: rotate(45deg);
+    margin-top: 455px;
+   
+
+}
+.id-dark-blue-bottom-rightStripe{
+    position: absolute;
+    width: 150px;
+     height: 29px;
+     right: -28pt; /* 64px */
+     border-right: 10px solid  #003366;
+    
+    background-color:  #003366;
+    transform: rotate(140deg);
+   
+    margin-top: 450px;
+    
+}
+.id-dark-blue-bottom-dottedCircle{
+    position: absolute;
+    width:68px;
+    height: 66px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle, #000 3%, transparent 2%), radial-gradient(circle, #000 3%, transparent 2%);
+    background-size: 10px 10px;
+    background-position: 0 0, 40px 40px;
+    top: 471px;
+    left: 5px;
+}
+/* Content Styles */
+.id-card-wrapper-front .id-card-content {
+    position: absolute;
+    top: 40.5pt; 
+    text-align: center;/* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; /* 72px */
+    padding: 6pt;
+    text-align: center; /* 8px */
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+    position: absolute;
+    left: 40pt; /* 10px */
+    top: 35pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 33mm;
+    height: 31mm;
+    border-radius: 5pt;
+    position: absolute;
+    top: -14.25mm;
+
+    left: 26pt;
+    text-align: center;
+
+
+}
+
+
+.id-card-wrapper-back .id-emergency-contact {
+    font-size: 12px;
+    margin-bottom: 39mm;
+    position: absolute;
+    top: 16mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back  .id-blood-group{
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 4mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back  .id-dob{
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 4mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back .id-issue-date {
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 46mm;
+    text-align: center;
+}
+
+.id-card-wrapper-back .id-expiry-date {
+    font-size: 12px;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 42mm;
+    text-align: center;
+}
+
+/* 
+.id-barcode{
+    font-size: 0.8333em;
+    margin-bottom: 5mm;
+    position: absolute;
+    top: 4mm;
+    text-align: center;
+} */
+.name-title{
+    position: absolute;
+    top: 30mm;
+    left: 16mm;
+    text-align: center;
+}
+.name-title h1 {
+    font-size: 25px; 
+    color: #003366;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    white-space: nowrap; 
+    letter-spacing: normal; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.name-title p {
+    font-size: 16px;
+    color:  #003366;
+    margin: 0;
+    font-weight: normal;
+}
+.phone-icon{
+    position: absolute;
+    top: 50mm;
+    left: 37mm;
+    text-align: center;
+}
+
+.phone-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.phone-number p1{
+    position: absolute;
+    top: 64mm;
+    left: 28mm;
+    font-weight: bold;
+    white-space: nowrap; 
+    letter-spacing: normal; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    font-weight: normal;
+}
+.email-icon{
+    position: absolute;
+    top: 72mm;
+    left: 24mm;
+    text-align: center;
+}
+
+.email-icon img{
+    width: 35px;
+    height: 35px;
+}
