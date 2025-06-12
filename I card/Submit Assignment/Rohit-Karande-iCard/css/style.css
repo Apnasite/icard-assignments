@@ -1,0 +1,404 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightskyblue;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #ffffff;
+    height: 100%;
+}
+.id-card-wrapper-front .id-dark-pink {
+    left: 122pt;
+    margin-top: -0.69pt;
+    position: absolute;
+    top: 155pt;
+    width: 29mm;
+    height: 25mm;
+    background-color: #F4CD28;
+    transform: rotate(37deg) skew(-7deg, -20deg);
+}
+.id-card-wrapper-front .id-pink {
+    left: 88pt;
+    margin-top: -0.69pt;
+    width: 151.1pt;
+    height: 28.5pt;
+    background-color: #ecbf00;
+    position: absolute;
+    top: 223pt;
+    transform: rotate(37deg) skew(-7deg, -20deg);
+}
+
+.id-card-wrapper-front .id-light-pink {
+    position: absolute;
+    top: 52mm;
+    left: -22mm;
+    height: 34mm;
+    width: 27mm;
+    transform: rotate(37deg) skew(-7deg, -20deg);
+    background-color: #F4CD28;
+}
+.id-card-wrapper-front .id-light-pink1 {
+       position: absolute;
+    top: 55mm;
+    left: -2mm;
+    height: 33mm;
+    width: 8mm;
+    transform: rotate(37deg) skew(-7deg, -20deg);
+    background-color: #ecbf00;
+}
+
+.id-blue{
+    position: absolute;
+    top: 67mm;
+    left: 0mm;
+    height: 29mm;
+    width: 20mm;
+    transform: rotate(41deg) skew(-6deg, -8deg);
+    background-color: blue;
+}
+.id-light-blue{
+    position: absolute;
+    top: 80.5mm;
+    left: 8mm;
+    height: 8mm;
+    width: 19mm;
+    transform: rotate(128deg) skew(22deg, 6deg);
+    background-color: rgb(69, 191, 239);
+}
+.id-blue2{
+    position: absolute;
+    top: 67mm;
+    left: 10mm;
+    height: 8mm;
+    width: 21.5mm;
+    transform: rotate(37deg) skew(-7deg, -20deg);
+    background-color: rgb(69, 191, 239);
+
+}
+
+.id-blue3{
+    position: absolute;
+    top: 81mm;
+    left: 24mm;
+    height: 9mm;
+    width: 23mm;
+    transform: rotate(38deg) skew(-7deg, -20deg);
+    background-color: rgb(18, 65, 230);
+} 
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt; /* 19px */
+}
+
+.org-logo img {
+    max-width: 36.25%;
+    height: auto;
+    position: relative;
+    top: -30pt;
+}
+
+.user-photo {
+    position: absolute;
+    left: 7.5pt;
+    top: -24.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.user-photo img {
+    width: 29mm;
+    height: 25mm;
+    position: absolute;
+    top: 4.25mm;
+    left: 30pt;
+    border-radius: 50%;
+   
+}
+
+.user-name {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 27mm;
+    left: 16mm;
+}
+
+.id-number {
+    font-size: 0.6em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 23mm;
+    left: 21mm;
+}
+
+.id-title {
+    font-size: 0.6em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 32mm;
+    left: 16mm;
+}
+
+.org-name {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 36mm;
+    left: 12mm;
+}
+
+.org-address {
+    font-size: 0.6em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 21mm;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 190.5pt; /* 254px */
+    top: -255.75pt; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #ffffff;
+    height: 100%;
+   
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: 25pt;
+    margin-top: 212pt;
+    width: 2pt;
+    height: 96pt;
+    background-color: rgb(239, 255, 18);
+    position: absolute;
+    bottom: 37pt;
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    left: -12.25pt;
+    margin-top: 216pt;
+    width: 29.2pt;
+    height: 23.5pt;
+    background-color: rgb(77 188 231);
+    position: absolute;
+    top: -183pt;
+    transform: rotate(-12deg) skewY(-57deg);
+}
+
+.id-card-wrapper-back .id-light-pink-bottom {
+    left: -16pt;
+    margin-top: 275pt;
+    width: 31pt;
+    height: 133pt;
+    background-color: #ecbf00;
+    position: absolute;
+    top: -215pt;
+    transform: rotate(26deg);
+}
+.id-card-wrapper-back .id-yellow{
+    left: -31pt;
+    margin-top: 275pt;
+    width: 31pt;
+    height: 91pt;
+    background-color: #F4CD28;
+    position: absolute;
+    top: -224pt;
+    transform: rotate(25deg);
+}
+.id-blue-long{
+    left: 86.75pt;
+    margin-top: 191pt;
+    width: 17.2pt;
+    height: 181.5pt;
+    background-color: rgb(77 188 231);
+    position: absolute;
+    top: -228pt;
+    transform: rotate(-248deg) skewY(-30deg);
+}
+.id-blue1-box {
+
+    height: 75pt;
+    width: 125pt;
+    position: absolute;
+    left: 18pt;
+    top: -39pt;
+    transform: rotate(22deg);
+    background-color: rgb(40, 86 ,233);
+ }
+.id-yellow-top {
+
+    height: 75pt;
+    width: 50pt;
+    position: absolute;
+    left: 137pt;
+    top: -6pt;
+    transform: rotate(22deg);
+    background-color: #F4CD28;
+}
+.id-yellow-top1{
+    height: 53pt;
+    width: 60pt;
+    position: absolute;
+    left: 55pt;
+    top: -29pt;
+    transform: rotate(22deg);
+    background-color: #F4CD28;
+}
+.id-blue2-box{
+    height: 53pt;
+    width: 60pt;
+    position: absolute;
+    left: -51pt;
+    top: -22pt;
+    transform: rotate(22deg);
+    background-color: blue;
+}
+
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40pt; /* 54px */
+  
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 88pt; /* 72px */
+    /* padding: 6pt; 8px */
+    left: 33pt;
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+.id-emergency-contact{
+    font-size: 0.5em;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 18mm;
+    position: relative;
+    top: 10mm;
+    left: 6mm;
+}
+.id-blood-group{
+    font-size: 0.5em;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 18mm;
+    position: relative;
+    top: -7mm;
+    left: 6mm;
+}
+.id-dob{
+    font-size: 0.5em;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 18mm;
+    position: relative;
+    top: -24mm;
+    left: 6mm;
+}
+.id-issue-date{
+    font-size: 0.5em;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 18mm;
+    position: relative;
+    top: -41mm;
+    left: 6mm;
+}
+.id-expiry-date{
+    font-size: 0.5em;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 18mm;
+    position: relative;
+    top: -58mm;
+    left: 6mm;
+}
+.qr-code {
+    position: absolute;
+    left: 7.5pt; /* 10px */
+    top: 7.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm;
+    height: 12mm;
+    border-radius: 5pt;
+    position: absolute;
+    top: -5mm;
+    left: 20pt;
+}
+
+/* .id-emergency-contact,
+.id-blood-group,
+.id-dob,
+.id-dates,
+.id-barcode, */
+.id-policy {
+    width: 48mm;
+    height: 12mm;
+    font-size: 0.8333em;
+    /* margin-bottom: 18mm; */
+    position: absolute;
+    top: 36mm;
+    left: 0mm;
+}
