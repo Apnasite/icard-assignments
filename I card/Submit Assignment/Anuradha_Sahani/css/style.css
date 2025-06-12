@@ -1,0 +1,293 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+   /* background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+}
+
+.id-card-wrapper-front .id-card-background {
+    background-color: #a20002;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-shape1{
+    width: 162px;
+    height: 298px;
+    background-color: #c7b086;
+    margin-left: 8mm;
+    position: absolute;
+    top: 9mm;
+	
+}
+
+.id-card-wrapper-front .id-shape2 {
+       width: 113px;
+    height: 129px;
+    border: 2px solid #936041;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 19mm;
+    left: 13.5mm;
+}
+
+.id-card-wrapper-front .id-light-pink {
+    left: 51pt; /* 68px */
+    margin-top: -0.69pt; /* -0.92px */
+    width: 53.775pt; /* 71.7px */
+    height: 22.5pt; /* 30px */
+    /*background-color: rgb(250, 97, 197);*/
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.org-logo {
+    text-align: center;
+    margin-bottom: 14.25pt; /* 19px */
+}
+
+.org-logo img {
+ max-width: 33.25%;
+    height: auto;
+    position: relative;
+    top: -2mm;
+    left: 0.5mm;
+    background-clip: content-box;
+    padding: 1px;
+    border: none;
+}
+
+.user-photo {
+    position: absolute;
+    left: 7.5pt; /* 10px */
+    top: 7.5pt; /* 10px */
+    height: 75pt; /* 100px */
+    width: 75pt; /* 100px */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-photo img {
+width: 101px;
+    height: 119px;
+    border-radius: 17px;
+    background-color: #c7b086;
+    position: absolute;
+    top: 4mm;
+    left: 13mm;
+
+}
+
+.user-name {
+font-size: -5.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30mm;
+    position: absolute;
+    top: 40mm;
+    left: 20mm;
+    color: white;
+}
+
+.id-number {
+  font-size: 2.5mm;
+    text-align: center;
+    margin-bottom: 23mm;
+    position: absolute;
+    top: 49.5mm;
+    left: 19mm;
+    width: 22mm;
+	color:#863d2a;
+}
+
+.id-title {
+ font-size: 3mm;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 53mm;
+    left: 13mm;
+	color:#863d2a;
+}
+
+.org-name {
+  font-size: 3.5mm;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 57mm;
+    left: 12mm;
+    color: #863d2a;
+}
+
+.org-address {
+   font-size: 3mm;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 62mm;
+    left: 20mm;
+	color:#863d2a;
+}
+
+.id-card-wrapper-back {
+    position: relative;
+    width: 167.25pt; /* 223px */
+    height: 237.75pt; /* 317px */
+    margin: 17.25pt; /* 23px */
+    background-color: #ffffff;
+    border: 0.75pt solid #ffffff; /* 1px */
+    overflow: hidden;
+    left: 190.5pt; /* 254px */
+    top: -255.75pt; /* -341px */
+}
+
+.id-card-wrapper-back .id-card-background {
+    background-color: #a60201;
+    height: 100%;
+}
+
+.id-card-wrapper-back .id-dark-pink-bottom {
+    left: 0pt; /* 0px */
+    margin-top: 216pt; /* 288px */
+    width: 53.775pt; /* 71.7px */
+    height: 22.5pt; /* 30px */
+   /* background-color: rgb(248, 11, 165);*/
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.id-card-wrapper-back .id-pink-bottom {
+    left: 90.75pt; /* 121px */
+    margin-top: 216pt; /* 288px */
+    width: 82.2pt; /* 109.6px */
+    height: 22.5pt; /* 30px */
+    /*background-color: rgb(245, 117, 200);*/
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+.id-card-wrapper-back .id-light-pink-bottom {
+    left: 48pt; /* 64px */
+    margin-top: 216pt; /* 288px */
+    width: 53.775pt; /* 71.7px */
+    height: 22.5pt; /* 30px */
+   /* background-color: rgb(250, 97, 197);*/
+    position: absolute;
+    top: 0pt; /* 0px */
+}
+
+/* Content Styles */
+.id-card-content {
+    position: absolute;
+    top: 40.5pt; /* 54px */
+}
+
+.id-card-wrapper-back .id-card-content {
+    position: absolute;
+    top: 54pt; /* 72px */
+    padding: 6pt; /* 8px */
+}
+
+.id-contact-info {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 42mm;
+    left: 16mm;
+}
+
+.qr-code {
+  position: absolute;
+    left: 13.5pt;
+    top: 158.5pt;
+    height: 75pt;
+    width: 75pt;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.qr-code img {
+    width: 15mm; /* 20mm */
+    height: 12mm; /* 16mm */
+    border-radius: 5pt;
+    position: absolute;
+    top: -14.25mm; /* -19mm */
+    left: 42.5pt; /* 56px */
+}
+
+.id-emergency-contact {
+ font-size: 3mm;
+    margin-bottom: 3mm;
+    position: absolute;
+    top: -9mm;
+    left: 11mm;
+    color: #fdf4e6;
+}
+.id-blood-group {
+font-size: 4mm;
+    margin-bottom: 3mm;
+    position: absolute;
+    top: -1mm;
+    left: 13mm;
+    color: #e7a09e;
+}
+.id-dob {
+  font-size: 3mm;
+    margin-bottom: 1mm;
+    position: absolute;
+    top: 5mm;
+    left: 11mm;
+    color: #e7a09e;
+}
+.id-issue-date
+ {
+  font-size: 4mm;
+    margin-bottom: 3mm;
+    position: absolute;
+    top: 10mm;
+    left: 8mm;
+    color: #e7a09e;
+}
+.id-expiry-date {
+   font-size: 3mm;
+    margin-bottom: 13mm;
+    position: absolute;
+    top: 17mm;
+    left: 12mm;
+	color:#e7a09e;
+}
+.id-policy {
+   font-size: 3mm;
+    margin-bottom: 6mm;
+    position: relative;
+    top: 22mm;
+    left: 4mm;
+    margin-right: 16mm;
+    margin-left: 7mm;
+color:#e7a09e;
+}
