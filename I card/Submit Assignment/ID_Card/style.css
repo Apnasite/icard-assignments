@@ -1,0 +1,478 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.id-card-wrapper-front {
+    position: relative;
+    width: 167.25pt;
+    height: 237.75pt;
+    margin: 17.25pt;
+    border: 5pt solid #1a1313;
+    overflow: hidden;
+}
+.id-card-wrapper-front .id-card-background {
+    background-color:white;
+    height: 100%;
+}
+
+.id-card-wrapper-front .id-card-background .lefttoprect1{
+    width: 8.2mm;
+    height: 32mm;
+    top: -3mm;
+    left: -0.5mm;
+    background: rgb(15, 15, 114) !important;
+    transform: skewY(-38deg);
+    position: relative;
+}
+.id-card-wrapper-front .id-card-background .leftbottomrect1{
+    width: 7.2mm;
+    height: 32mm;
+    top: 22mm;
+    left: -0.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(38deg);
+    position: relative;
+}
+.id-card-wrapper-front .id-card-background .leftbottomrect2{
+    width: 4.2mm;
+    height: 7mm;
+    top: -11mm;
+    left: 4mm;
+    border: 0.5mm solid rgba(255, 204, 0, 0.959);
+    transform: skewY(-148deg);
+    position: relative;
+}
+.id-card-wrapper-front .id-card-background .leftbottomrect3{
+    width: 5.2mm;
+    height: 9mm;
+    top: -7mm;
+    left: 8mm;
+    border: 0.5mm solid rgba(255, 204, 0, 0.959);
+    transform: skewY(-148deg);
+    position: relative;
+    z-index: 1;
+}
+.id-card-wrapper-front .id-card-background .leftbottomrect4{
+    width: 4.2mm;
+    height: 7mm;
+    top: -19mm;
+    left: 11.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(216deg);
+    position: relative;
+    } 
+ .id-card-wrapper-front .id-card-background .leftbottomrect5{
+    width: 5.2mm;
+    height: 13mm;
+    top: 72mm;
+    left: 6.1mm;
+    background: rgb(15, 15, 114) !important;
+    transform: skewY(-148deg);
+    position: absolute;
+ }
+.id-card-wrapper-front .id-card-background .leftbottomrect6{
+    width: 11.3mm;
+    height: 9mm;
+    top: 65mm;
+    left: 0mm;
+    background:rgb(15, 15, 114) !important;
+    transform: skewY(34deg);
+    position: absolute;
+}
+ .id-card-wrapper-front .id-card-background .righttoprect1{
+    width: 7.2mm;
+    height: 32mm;
+    top: -92mm;
+    left: 52.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(38deg);
+    position: relative;
+    }
+ .id-card-wrapper-front .id-card-background .righttoprect2{
+    width: 4.2mm;
+    height: 7mm;
+    top: -100mm;
+    left: 50mm;
+    border: 0.5mm solid rgba(255, 204, 0, 0.959);
+    transform: skewY(-148deg);
+    position: relative;
+    }
+  .id-card-wrapper-front .id-card-background .righttoprect3{
+    width: 5.2mm;
+    height: 9mm;
+    top: -121mm;
+    left: 45.5mm;
+    border: 0.5mm solid rgba(255, 204, 0, 0.959);
+    transform: skewY(-148deg);
+    position: relative;
+    z-index: 1;
+    }
+ .id-card-wrapper-front .id-card-background .righttoprect4{
+    width: 4.2mm;
+    height: 7mm;
+    top: -127mm;
+    left: 43.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(-148deg);
+    position: relative;
+    }
+    .id-card-wrapper-front .id-card-background .righttoprect5{
+    width: 5.2mm;
+    height: 13mm;
+    top: -2mm;
+    left: 49mm;
+    background:rgb(15, 15, 114) !important;
+    transform: skewY(-148deg);
+    position: absolute;
+     }
+     .id-card-wrapper-front .id-card-background .righttoprect6{
+    width: 10.3mm;
+    height: 9mm;
+    top: 9mm;
+    left: 49mm;
+    background:rgb(15, 15, 114) !important;
+    transform: skewY(34deg);
+    position: absolute;
+    }
+    
+.id-card-wrapper-front .id-card-background .rightbottomrect1{
+    width: 8.2mm;
+    height: 34mm;
+    top: -91.5mm;
+    left: 51.5mm;
+    background: rgb(15, 15, 114) !important;
+    transform: skewY(-40deg);
+    position: relative;
+}
+
+.id-card-wrapper-front.id-card-content {
+    position: absolute;
+    top: 10.5pt; /* 54px */
+
+}
+.org-logo img {
+    width: 35mm;
+    height: 29mm;
+    border-radius: 5pt;
+    position: absolute;
+    top: -3mm;
+    left: 33pt;
+}
+
+.user-photo img {
+    width:22mm; /* 25mm */
+    height:23mm; /* 21mm */
+    border-radius: 5pt;
+    position: absolute;
+    top:25mm; /* 7mm */
+    left: 55pt; /* 56px */
+}
+
+
+.user-name {
+    font-size: 1.1667em;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 52mm;
+    left: 17mm;
+    color: rgb(12, 12, 100);
+}
+ .qr-code img {
+    width: 23mm;
+    height: 19mm;
+    border-radius: 5pt;
+    position: absolute;
+    top:62mm;
+    left: 53pt;
+ }
+
+.id-number {
+    font-size: 0.8333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 76mm;
+    left: 21.6mm;
+    color: rgb(12, 12, 100);
+}
+
+.id-title {
+    font-size: 0.6553em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 58mm;
+    left: 16.8mm;
+    color: rgb(12, 12, 100);
+}
+/*.org-name {
+    font-size:0.9433em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 59mm;
+    left: 10.5mm;
+    color: rgb(12, 12, 100);
+}
+
+.org-address {
+    font-size: 0.7333em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18mm;
+    position: absolute;
+    top: 65mm;
+    left: 18mm;
+    color: rgb(12, 12, 100);
+}*/
+
+.id-card-wrapper-back {
+        position: relative;
+        width: 167.25pt;
+        height: 237.75pt;
+        margin: 17.25pt;
+        border: 5pt solid #1a1313;
+        overflow: hidden;
+        left: 190.5pt;
+        top: -255.75pt;
+}
+.id-card-wrapper-back .id-card-background {
+    background-color:white;
+    height: 100%;
+}
+.id-card-wrapper-back .id-card-background .lefttoprect1{
+    width: 8.2mm;
+    height: 32mm;
+    top: -3mm;
+    left: -0.5mm;
+    background: rgb(15, 15, 114) !important;
+    transform: skewY(-38deg);
+    position: relative;
+}
+.id-card-wrapper-back .id-card-background .leftbottomrect1{
+    width: 7.2mm;
+    height: 32mm;
+    top: 22mm;
+    left: -0.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(38deg);
+    position: relative;
+}
+.id-card-wrapper-back .id-card-background .leftbottomrect2{
+    width: 4.2mm;
+    height: 7mm;
+    top: -11mm;
+    left: 4mm;
+    border: 0.5mm solid rgba(255, 204, 0, 0.959);
+    transform: skewY(-148deg);
+    position: relative;
+}
+.id-card-wrapper-back .id-card-background .leftbottomrect3{
+    width: 5.2mm;
+    height: 9mm;
+    top: -7mm;
+    left: 8mm;
+    border: 0.5mm solid rgba(255, 204, 0, 0.959);
+    transform: skewY(-148deg);
+    position: relative;
+    z-index: 1;
+}
+    
+.id-card-wrapper-back .id-card-background .leftbottomrect4{
+    width: 4.2mm;
+    height: 7mm;
+    top: -19mm;
+    left: 11.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(216deg);
+    position: relative;
+    } 
+ .id-card-wrapper-back .id-card-background .leftbottomrect5{
+    width: 5.2mm;
+    height: 13mm;
+    top: 72mm;
+    left: 6.1mm;
+    background: rgb(15, 15, 114) !important;
+    transform: skewY(-148deg);
+    position: absolute;
+ }
+ .id-card-wrapper-back .id-card-background .leftbottomrect6{
+    width: 11.3mm;
+    height: 9mm;
+    top: 65mm;
+    left: 0mm;
+    background: rgb(15, 15, 114) !important;
+    transform: skewY(34deg);
+    position: absolute;
+}
+ .id-card-wrapper-back .id-card-background .righttoprect1{
+    width: 7.2mm;
+    height: 32mm;
+    top: -92mm;
+    left: 52.5mm;
+    background: rgba(255, 204, 0, 0.959) !important;
+    transform: skewY(38deg);
+    position: relative;
+    }
+
+ .id-card-wrapper-back .id-card-background .righttoprect2{
+        width:4.2mm;
+       height:7mm;
+       top:-100mm;
+       left: 50mm;
+       border: 0.5mm solid rgba(255, 204, 0, 0.959);
+       transform: skewY(-148deg);
+       position: relative;
+       }
+  .id-card-wrapper-back .id-card-background .righttoprect3{
+        width: 5.2mm;
+        height: 9mm;
+        top: -121mm;
+        left: 45.5mm;
+        border: 0.5mm solid rgba(255, 204, 0, 0.959);
+        transform: skewY(-148deg);
+        position: relative;
+        z-index: 1;
+       }
+  .id-card-wrapper-back .id-card-background .righttoprect4{
+        width: 4.2mm;
+        height: 7mm;
+        top: -127mm;
+        left: 43.5mm;
+        background: rgba(255, 204, 0, 0.959) !important;
+        transform: skewY(-148deg);
+        position: relative;
+       }
+ .id-card-wrapper-back .id-card-background .righttoprect5{
+        width: 5.2mm;
+        height: 13mm;
+        top: -2mm;
+        left: 49mm;
+        background:rgb(15, 15, 114) !important;
+        transform: skewY(-148deg);
+        position: absolute;
+     }
+ .id-card-wrapper-back .id-card-background .righttoprect6{
+        width: 10.3mm;
+        height: 9mm;
+        top: 9mm;
+        left: 49mm;
+        background: rgb(15, 15, 114)!important;
+        transform: skewY(34deg);
+        position: absolute;
+    }
+    .id-card-wrapper-back .id-card-background .rightbottomrect1{
+        width: 8.2mm;
+        height: 34mm;
+        top: -92.5mm;
+        left: 51.5mm;
+        background: rgb(15, 15, 114) !important;
+        transform: skewY(-40deg);
+        position: relative;
+    }
+
+    .id-card-wrapper-back .id-card-content {
+        top: 50.5pt; /* 54px */
+    }
+
+    .id-card-wrapper-back .id-card-content .org-logo img {
+        width: 35mm;
+        height: 29mm;
+        border-radius: 5pt;
+        position: absolute;
+        top: 0mm;
+        left: 34pt;
+    }
+    
+
+    /*.id-card-wrapper-back .id-card-content .qr-code img {
+        width: 23mm;
+        height: 19mm;
+        border-radius: 5pt;
+        position: absolute;
+        top:55mm;
+        left: 51pt;
+    }*/
+    
+    .id-card-wrapper-back .id-card-content .id-emergency-contact{
+        font-size: 0.7500em;
+        text-align: center;
+        margin-bottom: 18mm;
+        position: absolute;
+        top: 33mm;
+        left: 13mm;
+        color: rgb(12, 12, 100);
+    
+    }
+    /*.id-card-wrapper-back .id-card-content .id-blood-group{
+        font-size:0.6999em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 18mm;
+        position: absolute;
+        top:29mm;
+        left:13mm;
+    }*/
+    /*.id-card-wrapper-back .id-card-content .id-dob{
+        font-size: 0.7500em;
+        text-align: center;
+        margin-bottom: 18mm;
+        position: absolute;
+        top:29mm;
+        left: 13mm;
+        color: rgb(12, 12, 100);
+    }*/
+    .id-card-wrapper-back .id-card-content .id-issue-date{
+        font-size: 0.7500em;
+        text-align: center;
+        margin-bottom: 18mm;
+        position: absolute;
+        top:38mm;
+        left: 13mm;
+        color: rgb(12, 12, 100);
+    }
+    .id-card-wrapper-back .id-card-content .id-expiry-date{
+        font-size: 0.7500em;
+        text-align: center;
+        margin-bottom: 18mm;
+        position: absolute;
+        top:43mm;
+        left: 13mm;
+        color: rgb(12, 12, 100);
+    }
+
+    .org-website{
+        position:absolute;
+        top:160pt;
+        left: 43pt;
+        font-style: normal;
+        font-size: 11pt;
+        color:rgb(12, 12, 100);
+    }
+    /*.id-card-wrapper-back .id-card-content .id-policy{
+        font-size: 0.6199em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 18mm;
+        position: absolute;
+        top:66mm;
+        left:10.2mm;
+        z-index: 1;
+        color: rgb(12, 12, 100);
+    }*/
